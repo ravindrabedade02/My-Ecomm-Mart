@@ -105,12 +105,11 @@ function Products() {
         {products.map(function (element) {
           return (
             <div
-              key={element.title}
-              className="w-full sm:w-[270px] p-3 text-center shadow-xl rounded-xl"
+              className="w-full sm:w-[270px] p-3 text-center shadow-2xl rounded-xl"
             >
               <img
                 src={element.image}
-                alt={element.title}
+                // alt={element.title}
                 className="w-full h-[200px] object-contain"
               />
 
