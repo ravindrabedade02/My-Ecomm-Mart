@@ -21,8 +21,8 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Product />
       <Categories />
+      <Product />
       <Products />
     </div>
 
