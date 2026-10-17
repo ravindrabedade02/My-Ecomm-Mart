@@ -9,11 +9,11 @@ function Navbar() {
         <a href="/" className="text-xl hover:text-green-300">
           Home
         </a>
-        <a href="#products" className="text-xl hover:text-green-300">
-          Products
-        </a>
         <a href="#categories" className="text-xl hover:text-green-300">
           Categories
+        <a href="#products" className="text-xl hover:text-green-300">
+        </a>
+          Products
         </a>
         <a href="#contact" className="text-xl hover:text-green-300">
           Contact Us
