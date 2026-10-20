@@ -2,6 +2,8 @@ import Navbar from "./components/nav-bar/Navbar";
 import Product from "./components/product/Product";
 import Categories from "./components/categories/Categories";
 import Products from "./components/products/Products";
+// import ContactUs from "./components/contact-us/ContactUs";
+import { Route, Routes } from "react-router-dom";
 import { useState } from "react";
 
 function App() {
@@ -21,9 +23,17 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Product />
+      <Product /> 
       <Categories />
       <Products />
+
+      {/* <Routes>
+        <Route path={"/"} element={<Navbar />} />
+        <Route path={"/product"} element={<Product />} />
+        <Route path={"/categories"} element={<Categories />} />
+        <Route path={"/products"} element={<Products />} />
+        { <Route path={"/contactus"} element={<ContactUs />} /> }
+      </Routes> */}
     </div>
 
     // <div className="">
