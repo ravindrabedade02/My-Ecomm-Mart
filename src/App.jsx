@@ -24,16 +24,15 @@ function App() {
     <div>
       <Navbar />
       <Product /> 
-      <Categories />
-      <Products />
+      {/*<Categories />
+      <Products /> */}
 
-      {/* <Routes>
-        <Route path={"/"} element={<Navbar />} />
-        <Route path={"/product"} element={<Product />} />
+      <Routes>
+        
         <Route path={"/categories"} element={<Categories />} />
         <Route path={"/products"} element={<Products />} />
-        { <Route path={"/contactus"} element={<ContactUs />} /> }
-      </Routes> */}
+        {/* { <Route path={"/contactus"} element={<ContactUs />} /> } */}
+      </Routes>
     </div>
 
     // <div className="">
