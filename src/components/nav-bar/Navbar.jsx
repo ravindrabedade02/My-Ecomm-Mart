@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <nav className="min-h-[90px] bg-black px-5 py-4 flex flex-col gap-4 md:grid md:grid-cols-[40%_60%] md:items-center">
@@ -6,23 +8,23 @@ function Navbar() {
       </section>
 
       <section className="text-white flex flex-wrap justify-center mt-1 gap-4 md:justify-end md:items-center">
-        <a href="/" className="text-xl hover:text-green-300">
+        <Link to="/" className="text-xl hover:text-green-300">
           Home
-        </a>
-        <a href="/categories" className="text-xl hover:text-green-300">
+        </Link>
+        <Link to="/categories" className="text-xl hover:text-green-300">
           Categories
-        </a>
-        <a href="/products" className="text-xl hover:text-green-300">
+        </Link>
+        <Link to="/products" className="text-xl hover:text-green-300">
           Products
-        </a>
-        <a href="#contactus" className="text-xl hover:text-green-300">
+        </Link>
+        <Link to="/contactus" className="text-xl hover:text-green-300">
           ContactUs
-        </a>
-        <a>
+        </Link>
+        <Link>
           <button
             className="rounded-lg px-3 py-2 text-white hover:bg-green-400">Logout
           </button>
-        </a>
+        </Link>
       </section>
     </nav>
   );
