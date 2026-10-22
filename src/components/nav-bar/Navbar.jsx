@@ -7,24 +7,29 @@ function Navbar() {
         <h1 className="text-3xl md:text-5xl font-bold">My-Ecomm-Mart</h1>
       </section>
 
-      <section className="text-white flex flex-wrap justify-center mt-1 gap-4 md:justify-end md:items-center">
+      <section className="mt-1 flex flex-wrap items-center justify-center gap-4 text-white md:justify-end">
         <Link to="/" className="text-xl hover:text-green-300">
           Home
         </Link>
+
         <Link to="/categories" className="text-xl hover:text-green-300">
           Categories
         </Link>
+
         <Link to="/products" className="text-xl hover:text-green-300">
           Products
         </Link>
-        <Link to="/contactus" className="text-xl hover:text-green-300">
-          ContactUs
+
+        <Link to="/contact-us" className="text-xl hover:text-green-300">
+          Contact Us
         </Link>
-        <Link>
-          <button
-            className="rounded-lg px-3 py-2 text-white hover:bg-green-400">Logout
-          </button>
-        </Link>
+
+        <button
+          type="button"
+          className="rounded-lg px-3 py-2 text-white hover:bg-green-400"
+        >
+          Logout
+        </button>
       </section>
     </nav>
   );
