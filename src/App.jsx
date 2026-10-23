@@ -12,6 +12,7 @@ function Home() {
      <Product />
      <Categories />
      <Products />
+     <ContactUs />
    </div>
  );
 }
@@ -37,12 +38,13 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/categories" element={<Categories />} />
-        <Route path="/products" element={<Products />} >
+        <Route path="/categories" element={<Categories />} >
+
         </Route>
+        <Route path="/products" element={<Products />} />
         <Route path="/contact-us" element={<ContactUs />} /> 
 
-        <Route path="*" element={<Home />} />
+        {/* <Route path="*" element={<Home />} /> */}
       </Routes>
     </>
 
