@@ -25,7 +25,9 @@ function Navbar() {
         </Link>
 
         <button
-          type="button"
+          type="button" onClick={() =>
+            alert("Logout Successfully !!")
+          }
           className="rounded-lg px-3 py-2 text-white hover:bg-green-400"
         >
           Logout
