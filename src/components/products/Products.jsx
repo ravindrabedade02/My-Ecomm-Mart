@@ -120,7 +120,7 @@ function Products() {
 
       <button
         onClick={getProducts}
-        className="mx-3 m-5 px-5 bg-blue-400 h-8 rounded-lg">
+        className="mx-3 m-5 px-5 bg-blue-400 h-8 font-bold rounded-lg">
           Get Products
         </button>
 
