@@ -4,7 +4,9 @@ function Navbar() {
   return (
     <nav className="min-h-[90px] bg-black px-5 py-4 flex flex-col gap-4 md:grid md:grid-cols-[40%_60%] md:items-center">
       <section className="text-green-300 flex justify-center items-center">
+        <a href="/">
         <h1 className="text-3xl md:text-5xl font-bold">My-Ecomm-Mart</h1>
+        </a>
       </section>
 
       <section className="mt-1 flex flex-wrap items-center justify-center gap-4 text-white md:justify-end">
