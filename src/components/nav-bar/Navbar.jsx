@@ -29,7 +29,7 @@ function Navbar() {
             confirm("Are you sure you would like to Log Out")
             // alert("Logout Successfully !!")
           }
-          className="rounded-lg px-3 py-2 text-white hover:bg-green-400"
+          className="rounded-lg px-3 py-2 text-white hover:bg-green-400 hover:font-bold"
         >
           Logout
         </button>
