@@ -1,5 +1,5 @@
 import Navbar from "./components/nav-bar/Navbar";
-import Product from "./components/product/Product";
+import Banner from "./components/banner/Banner";
 import Categories from "./components/categories/Categories";
 import Products from "./components/products/Products";
 import ContactUs from "./components/Contact-Us/Contactus";
@@ -9,7 +9,7 @@ import { useState } from "react";
 function Home() {
  return (
    <div>
-     <Product />
+     <Banner />
      <Categories />
      <Products />
      <ContactUs />
