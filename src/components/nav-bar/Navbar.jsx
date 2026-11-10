@@ -10,19 +10,19 @@ function Navbar() {
       </section>
 
       <section className="mt-1 flex flex-wrap items-center justify-center gap-4 text-white md:justify-end">
-        <Link to="/" className="text-xl hover:text-green-300">
+        <a href="/My-Ecomm-Mart/" className="text-xl hover:text-green-300">
           Home
-        </Link>
+        </a>
 
         <Link to="/categories" className="text-xl hover:text-green-300">
           Categories
         </Link>
 
-        <Link to="/products" className="text-xl hover:text-green-300">
+        <Link to="products" className="text-xl hover:text-green-300">
           Products
         </Link>
 
-        <Link to="/contact-us" className="text-xl hover:text-green-300">
+        <Link to="contact-us" className="text-xl hover:text-green-300">
           Contact Us
         </Link>
 

@@ -1,4 +1,3 @@
-
 import banner from "../../assets/front-view-shopbucket.png";
 
 function Banner() {
