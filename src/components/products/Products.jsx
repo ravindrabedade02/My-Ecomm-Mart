@@ -121,8 +121,8 @@ function Products() {
       <button
         onClick={getProducts}
         className="mx-3 m-5 px-5 bg-blue-400 h-8 font-bold focus:outline-2 focus:outline-offset-2 focus:outline-blue-500 active:bg-blue-700 rounded-lg">
-          Get Products
-        </button>
+        Get Products
+      </button>
 
       <div className="flex flex-wrap gap-6 justify-center">
         {products.map(function (element) {
@@ -162,6 +162,10 @@ function Products() {
               >
                 Product Details
               </button>
+              <div className="my-3">
+              <button className="p-2 rounded-xl bg-sky-400 text-white font-bold hover:bg-sky-500">Add To Cart</button>
+              {/* <button className="p-2 rounded-xl bg-sky-400 text-white font-bold hover:bg-sky-500">Add To Cart</button> */}
+              </div>
             </div>
           );
         })}
