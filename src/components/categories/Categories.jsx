@@ -47,7 +47,7 @@ function Categories() {
           <div className="w-28 text-center">
             <img
               src={element.image}
-              // loading="lazy"
+              loading="lazy"
               className="w-24 h-24 mx-auto rounded-full object-cover hover:focus:outline outline-offset-4 active:outline-2"
             />
             <h3 className="mt-3 font-bold text-black text-black hover:text-red-500 transition-colors duration-300">
