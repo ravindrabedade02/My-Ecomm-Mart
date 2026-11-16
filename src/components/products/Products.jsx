@@ -164,7 +164,7 @@ function Products() {
               </button>
               <div className="my-3">
               <button className="p-2 rounded-xl bg-sky-400 text-white font-bold hover:bg-sky-500">Add To Cart</button>
-              {/* <button className="p-2 rounded-xl bg-sky-400 text-white font-bold hover:bg-sky-500">Add To Cart</button> */}
+              <button className="p-2 rounded-xl bg-sky-400 text-white font-bold hover:bg-sky-500">Add To Cart</button>
               </div>
             </div>
           );
